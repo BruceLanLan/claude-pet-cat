@@ -1,0 +1,61 @@
+{
+  "pets": [
+    {
+      "id": "pet_1773591728975",
+      "species": "mimi",
+      "name": "小咪",
+      "dna": {
+        "hp": 85,
+        "attack": 44,
+        "defense": 52,
+        "speed": 65,
+        "luck": 68
+      },
+      "level": 1,
+      "experience": 0,
+      "exp_to_level": 100,
+      "hunger": 0,
+      "happiness": 0,
+      "energy": 100,
+      "health": 100,
+      "love": 50,
+      "clothes": {
+        "head": null,
+        "neck": null,
+        "body": null,
+        "back": null
+      },
+      "memory": [
+        "[00:22] 出生了！",
+        "[00:23] 好像生病了...",
+        "[00:33] 来抓我呀～",
+        "[00:34] 喵呜～(卖萌)"
+      ],
+      "last_interaction": null,
+      "born_time": "2026-03-16T00:22:08.975337",
+      "last_update": "2026-03-16T00:46:12.111453",
+      "age_days": 0,
+      "stats": {
+        "feed_count": 0,
+        "play_count": 0,
+        "pet_count": 0,
+        "talk_count": 0,
+        "total_interactions": 0
+      },
+      "mood": "hungry",
+      "thought": "想去厨房偷吃！"
+    }
+  ],
+  "inventory": {},
+  "coins": 1000,
+  "achievements": [],
+  "stats": {
+    "total_play_time": 0,
+    "current_streak": 0,
+    "last_play_date": null
+  },
+  "unlocked_pets": [
+    "mimi"
+  ],
+  "current_pet_index": 0
+}
