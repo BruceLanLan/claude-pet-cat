@@ -2,6 +2,37 @@
 
 一个超级可爱、参考数码暴龙风格的像素化虚拟宠物养成游戏！
 
+---
+
+## 📚 Agent Harness 方法论
+
+从 Claude Code 源码 + 设计指南提炼的 AI Agent 开发框架：
+
+| 文档 | 说明 |
+|------|------|
+| **[Agent-Harness-方法论.md](./Agent-Harness-方法论.md)** | 完整版：六维框架 + 深度解读 |
+| **[Agent-Harness-方法论-速查卡.md](./Agent-Harness-方法论-速查卡.md)** | 一页速查：检查清单 + 关键数值 |
+| **[Claude-Code-深度分析.md](./Claude-Code-深度分析.md)** | 分析过程：Openclaw 改进建议 |
+
+### 六维框架概览
+
+```
+1. Runtime   → PDAOL 循环、不可变历史、Token 预算
+2. Tools     → 原子化、延迟加载、Token 路由
+3. Context   → 缓存友好、CLAUDE.md、三层压缩
+4. Memory    → L0-L3 分层、相关性加载、AutoDream
+5. Safety    → 五层权限、YOLO 自适应、信任门控
+6. Evolution → 短/长反馈、A/B 测试、渐进复杂度
+```
+
+**核心公式**：
+```
+Agent 壁垒 = Harness + Context + Memory + Safety + Evolution + Tool
+不是模型越大越强，而是 Harness 越完善越强。
+```
+
+---
+
 ## ✨ 特性
 
 - 🐾 **20种宠物** - 像素风格，每只都有独特外观和DNA
@@ -22,7 +53,7 @@
 ║                                                  ║
 ║       ██████                              ║
 ║      ██░░░░██                             ║
-║     █░░█░█░░░█                            ║
+║     █░░█░█░░░░█                            ║
 ║     █░░░░░░░░█                            ║
 ║     █░░█░█░░░█                            ║
 ║      ██▓▓▓██                              ║
